@@ -1,2 +1,0 @@
-# superminsu
-Suprmercado Minsu
