@@ -1,175 +1,165 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SUPERMERCADOMINSU</title>
-    <style type="text/css">
-        body {
-            background-color: lightgray;
-            margin: 0;
-            font-family: Arial, sans-serif;
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>CUENTAFACILSA</title>
+ 	<style type="text/css">
+ 		body{
+ 			background-color: lightgray;
+ 		}
+ 		header{
+           border-radius: 20px;
+           height min-height: 100px;              
+           width: 100%;                       
+           font-family:Bradley Hand ITC;
+           font-size: 2em;
+           text-align: center;                  
+           background-color: aliceblue;
+           color: black;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           padding-top: 20px;
+           text-shadow: 2px 2px 2px violet;
+           box-shadow: 2px 2px 2px violet;
         }
-        header {
-            border-radius: 20px;
-            min-height: 100px;              
-            width: 100%;                       
-            font-family: Bradley Hand ITC, cursive;
-            font-size: 2em;
-            text-align: center;                  
-            background-color: aliceblue;
-            color: black;
-            margin: 20px 0;
-            padding: 20px 0;
-            text-shadow: 2px 2px 2px violet;
-            box-shadow: 2px 2px 2px violet;
-        }
-        nav {
-            border-radius: 15px;
-            background-color: lightpink;
-            color: red;
-            font-size: 1.2em;
-            font-weight: bold;
-            font-style: italic;
-            margin: 20px 0;
-        }
-        ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 0;
-        }
-        li {
-            margin: 0 15px;
-        }
-        a {
-            text-decoration: none;
-            color: blueviolet;
-        }
-        main {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-        section {
-            border-radius: 15px;
-            width: 100%;
-            background-color: aliceblue;
-            padding: 20px;
-            margin: 20px 0;
-        }
-        aside {
-            border-radius: 15px;
-            background-color: lightpink;
-            margin: 20px 0;
-            padding: 20px;
-            width: 100%;
-        }
-        footer {
-            background-color: lightpink;
-            min-height: 100px;
-            width: 100%;
-            font-family: Segoe UI Black;
-            color: blueviolet;
-            font-size: 1.2em;
-            text-align: center;
-            padding: 20px 0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        div {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 10px;
-            margin-top: 10px;
-        }
-        @media (min-width: 768px) {
-            main {
-                flex-direction: row;
-            }
-            section {
-                width: 75%;
-                margin-right: 20px;
-            }
-            aside {
-                width: 24%;
-                margin-left: 0;
-            }
-        }
-    </style>
-</head>
-<body>
-    <header>MINSU</header>
-    <nav>
-        <ul>
-            <li><a href="#Ini">Inicio</a></li>
-            <li><a href="#Mis">Misión</a></li>
-            <li><a href="#Vis">Visión</a></li>
-            <li><a href="#Pro">Productos</a></li>
-            <li><a href="#Ser">Servicios</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h1 id="Ini">Inicio</h1> 
-            <p>Somos una empresa que se dedica a ofrecer servicios de contabilidad integral para pequeñas y medianas empresas. Nos especializamos en la gestión de la contabilidad financiera, la elaboración de declaraciones fiscales, la auditoría y la consultoría financiera, asegurando que nuestros clientes cumplan con todas sus obligaciones fiscales y optimicen su gestión financiera.</p>
-            <hr>
-            <h1 id="Mis">Misión</h1>
-            <p>Nuestra misión es brindar soluciones contables integrales que empoderen a nuestros clientes a tomar decisiones informadas y estratégicas, eficiencia y un servicio personalizado. Nuestro compromiso es ser socios de confianza en el crecimiento y éxito financiero de cada cliente, contribuyendo al desarrollo sostenible de sus negocios.</p>
-            <hr>
-            <h1 id="Vis">Visión</h1>
-            <p>Nuestra visión es ser el aliado estratégico más confiable para pequeñas y medianas empresas en su camino hacia el crecimiento sostenible, ofreciendo servicios contables innovadores y personalizados que empoderen a nuestros clientes para tomar decisiones informadas y maximizar su potencial financiero. A través de la adopción de tecnología avanzada y un enfoque proactivo, nos comprometemos a transformar la gestión contable en una herramienta clave para el éxito empresarial.</p>
-            <hr>
-            <h1 id="Pro">Productos</h1>
-            <p>Contamos con los siguientes productos:</p>
-            <ul>
-                <li>Software de Contabilidad</li> 
-                <li>Libros Contables</li>
-                <li>Plantillas de Informes Financieros</li> 
-                <li>Sistemas de Gestión de Nómina</li> 
-                <li>Herramientas de Auditoría</li>         
-                <li>Guías de Cumplimiento Fiscal</li>   
-                <li>Formularios de Declaración de Impuestos</li> 
-                <li>Aplicaciones para Control de Gastos</li>  
-                <li>Servicios de Backup y Seguridad de Datos</li>          
-                <li>Kits de Inicio para Pequeñas Empresas</li>   
-            </ul>
-            <div>
-                <img src="https://economipedia.com/wp-content/uploads/Software-de-contabilidad.jpg" alt="Software de contabilidad" title="Software de contabilidad">
-                <img src="https://www.perucontable.com/contabilidad/wp-content/uploads/2023/12/67658259-libro-o-libro-mayor-de-contabilidad-mesas-abiertas-con-calculadora-y-lapiz-ilustracion-vectorial-de-1024x1024.jpg" alt="Libros Contables" title="Libros">
-                <img src="https://th.bing.com/th/id/R.e9a46e2c313707285dfd6c580c25ace4?rik=bBUSGyZx3c%2f%2bBA&pid=ImgRaw&r=0" alt="Calculadora" title="Calculadora">
-                <img src="https://image.slidesharecdn.com/facturadeventan1-091028152107-phpapp02/95/factura-de-venta-n-1-1-1024.jpg?cb=1256743325" alt="Factura" title="Factura">
-                <img src="https://static.wixstatic.com/media/99df1a_22b6194ba8f64eef9b3bb185f5567e6a~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg" alt="Libro de inventario" title="Inventario">
-                <img src="https://th.bing.com/th/id/OIP.BHVsIKOOMpedkyIIed_qVQHaF7?rs=1&pid=ImgDetMain" alt="Cartapacio" title="Cartapacio">
-            </div>
-            <hr>
-            <h1 id="Ser">Servicios</h1>
-            <p>Los servicios que prestamos son los siguientes:</p>
-            <ul>
-                <li>Contabilidad General: Registro y análisis de transacciones financieras.</li> 
-                <li>Asesoría Fiscal: Planificación y cumplimiento de obligaciones fiscales.</li> 
-                <li>Auditoría Financiera: Evaluación de estados financieros para asegurar su veracidad.</li> 
-                <li>Contabilidad de Costos: Análisis de costos para ayudar en la toma de decisiones empresariales.</li> 
-                <li>Gestión de Nómina: Administración de pagos y beneficios a empleados.</li> 
-                <li>Declaraciones de Impuestos: Preparación y presentación de declaraciones fiscales.</li>   
-                <li>Consultoría Financiera: Asesoramiento sobre inversiones y gestión de recursos.</li> 
-            </ul>
-        </section>
-        <aside>
-            <ol>
-                <li><a href="https://www.doofinder.com/es/blog/que-es-inventario" target="_blank">Inventarios</a></li>
-                <li><a href="https://www.bbva.com/es/salud-financiera/que-es-el-balance-general-o-de-situacion-de-una-empresa/" target="_blank">Balances</a></li>
-                <li><a href="https://www.efisco.es/contabilidad/ajuste-contable/#%C2%BFEn_que_consiste_el_ajuste_contable" target="_blank">Ajustes</a></li>
-                <li><a href="https://help.loyverse.com/es/help/how-taxes-are-calculated" target="_blank">Cálculo de impuesto</a></li>
-            </ol>
+         nav{
+           border-radius:15px;
+           height: 60px;
+           width: 100%;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           background-color:lightpink;
+           color: red;
+           padding-top: 2px;
+           font-size: 1.2em;
+           font-weight: bold;
+           font-style: italic;
+       }
+       ul{
+           list-style: none;
+           display: grid;
+           grid-template-columns: auto auto auto auto auto; 
+       }
+       a{
+        text-decoration: none;
+        color: blueviolet;
+       }
+      main{
+           height min-height: calc(100vh - 200px);
+           width: 100%;
+           display: flex;
+    }
+      section{
+           border-radius: 15px;
+           height min-height: 100%;
+           width: 75%;
+           background-color:aliceblue;
+           padding-left: 20px;
+           margin: 20px;
+           margin-top: 0px;
+    }
+      aside{
+           border-radius: 15px;
+           height min-height: 100%;
+           width: 24%;
+           background-color: lightpink;
+           margin: 20px;
+           margin-top: 0px;
+           padding-left: 10px;
+           margin-left: 0px;
+           padding-top: 20px;
+    }
+      footer{
+           background-color: lightpink;
+           height min-height: 100px;
+           width: 100%;
+           font-family: Segoe UI Black;
+           color: blueviolet;
+           font-size: 1.2em;
+           text-align: center;
+           padding-top: 20px;
+    } 
+     ol{
+        list-style: none;
+     }
+     img{
+        height: 150px;
+     }
+     div{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 200px;
+     }
+ 	</style>
+ </head>
+ <body>
+   <header>CUENTAFACIL S.A. </header>
+   <nav>
+       <ul>
+        <li><a href="#Ini">Inicio</a></li>
+        <li><a href="#Mis">Misión</a></li>
+        <li><a href="#Vis">Visión</a></li>
+        <li><a href="#Pro">Productos</a></li>
+        <li><a href="#Ser">Servicios</a></li>
+    </ul>
+   </nav>
+   <main>
+   	  <section>
+   	  	<h1 id="Ini">Inicio</h1> 
+        Somos una empresa que se dedica a ofrecer servicios de contabilidad integral para pequeñas y medianas empresas. Nos especializamos en la gestión de la contabilidad financiera, la elaboración de declaraciones fiscales, la auditoría y la consultoría financiera, asegurando que nuestros clientes cumplan con todas sus obligaciones fiscales y optimicen su gestión financiera.
+        <hr>
+   	  	<h1 id="Mis">Misión</h1>
+        Nuestra misión es brindar soluciones contables integrales que empoderen a nuestros clientes a tomar decisiones informadas y estratégicas,eficiencia y un servicio personalizado. Nuestro compromiso es ser socios de confianza en el crecimiento y éxito financiero de cada cliente, contribuyendo al desarrollo sostenible de sus negocios.
+        <hr>
+   	  	<h1 id="Vis">Visión</h1>
+        Nuestra vision es ser el aliado estratégico más confiable para pequeñas y medianas empresas en su camino hacia el crecimiento sostenible, ofreciendo servicios contables innovadores y personalizados que empoderen a nuestros clientes para tomar decisiones informadas y maximizar su potencial financiero. A través de la adopción de tecnología avanzada y un enfoque proactivo, nos comprometemos a transformar la gestión contable en una herramienta clave para el éxito empresarial.
+        <hr>
+   	  	<h1 id="Pro">Productos</h1>
+        Contamos con los siguientes productos:
+        <li>Software de Contabilidad</li> 
+        <li>Libros Contables</li>
+        <li>Plantillas de Informes Financieros</li> 
+        <li>Sistemas de Gestión de Nómina</li> 
+        <li>Herramientas de Auditoría</li>         
+        <li>Guías de Cumplimiento Fiscal</li>   
+        <li>Formularios de Declaración de Impuestos</li> 
+        <li>Aplicaciones para Control de Gastos</li>  
+        <li>Servicios de Backup y Seguridad de Datos</li>          
+        <li>Kits de Inicio para Pequeñas Empresas</li>   
+         <div>
+             <img src="https://economipedia.com/wp-content/uploads/Software-de-contabilidad.jpg" alt="Software de contabilidad" title="Software de contabilidad">
+             <img src="https://www.perucontable.com/contabilidad/wp-content/uploads/2023/12/67658259-libro-o-libro-mayor-de-contabilidad-mesas-abiertas-con-calculadora-y-lapiz-ilustracion-vectorial-de-1024x1024.jpg" alt="Libros Contables" title="Libros">
+             <img src="https://th.bing.com/th/id/R.e9a46e2c313707285dfd6c580c25ace4?rik=bBUSGyZx3c%2f%2bBA&pid=ImgRaw&r=0" alt="Calculadora" title="Calculadora">
+             <img src="https://image.slidesharecdn.com/facturadeventan1-091028152107-phpapp02/95/factura-de-venta-n-1-1-1024.jpg?cb=1256743325" alt="factura" title="fatura">
+             <img src="https://static.wixstatic.com/media/99df1a_22b6194ba8f64eef9b3bb185f5567e6a~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg" alt="Libro de inventario" title="inventario">
+             <img src="https://th.bing.com/th/id/OIP.BHVsIKOOMpedkyIIed_qVQHaF7?rs=1&pid=ImgDetMain" alt="Cartapacio" title="Cartapacio">
+         </div>
+        </hr>
+  	  	<h1 id="Ser">Servicios</h1>
+        Los servicios que prestamos son los siguientes:
+       <li>Contabilidad General: Registro y análisis de transacciones financieras.</li> 
+       <li>Asesoría Fiscal: Planificación y cumplimiento de obligaciones fiscales.</li> 
+       <li>Auditoría Financiera: Evaluación de estados financieros para asegurar su veracidad.</li> 
+       <li>Contabilidad de Costos: Análisis de costos para ayudar en la toma de decisiones empresariales.</li> 
+       <li>Gestión de Nómina: Administración de pagos y beneficios a empleados.</li> 
+       <li>Declaraciones de Impuestos: Preparación y presentación de declaraciones fiscales.</li>   
+       <li> Consultoría Financiera: Asesoramiento sobre inversiones y gestión de recursos.</li> 
+         <hr>
+   	  </section>
+   	   <aside>
+        <ol>
+            <li><a href="https://www.doofinder.com/es/blog/que-es-inventario" target="blanck">Inventarios</a></li> <br>
+            <li><a href="https://www.bbva.com/es/salud-financiera/que-es-el-balance-general-o-de-situacion-de-una-empresa/" target="blanck">Balances</a></li> <br>
+            <li><a href="https://www.efisco.es/contabilidad/ajuste-contable/#%C2%BFEn_que_consiste_el_ajuste_contable" target="blanck">Ajustes</a></li> <br>
+            <li><a href="https://help.loyverse.com/es/help/how-taxes-are-calculated" target="blanck">Cálculo de impuesto</a></li> <br>
+        </ol>
         </aside>
     </main>
     <footer>
-        Teléfono: 6245-8532<br>
+        Telefono:6245-8532
+        <br>
         e-mail: cuentafacilSA@gmail.com
     </footer>
-</body>
-</html>
+ </body>
+ </html> 
